@@ -1,0 +1,192 @@
+:root {
+    --primary-color: #888;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial' sans-serif;
+    background: #dcdcdc;
+    ;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    color: #808080;
+}
+
+.primary-nav {
+    position: relative;
+    left: 300px;
+    top: 10px;
+    color: var(--primary-color);
+    display: inline;
+}
+
+.secondary-nav {
+    position: relative;
+    left: 600px;
+    top: 10px;
+    color: var(--primary-color);
+    display: inline;
+}
+
+.head {
+    position: relative;
+    top: 100px;
+    left: 12%;
+    color: #808080;
+    align-self: center;
+}
+
+.take-survey {
+    background-color: #ff6347;
+    color: #ffffff;
+}
+
+.take-survey:hover {
+    background-color: #fa8072;
+    color: #ffffff;
+}
+
+.review-brand {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.review-brand:hover {
+    background-color: #696969;
+    color: #ffffff;
+}
+
+.features {
+    color: #000000;
+}
+
+.right-side {
+    position: relative;
+    left: 350px;
+    top: 200px;
+}
+
+.bottom {
+    position: relative;
+    top: 600px;
+}
+
+.contact {
+    position: relative;
+    top: 150px;
+    color: var(--primary-color);
+    align-content: center;
+}
+
+.contact-right {
+    position: relative;
+    left: 500px;
+    top: 130px;
+    color: #c0c0c0;
+}
+
+.send-message-cta {
+    background-color: #f5f5dc;
+    font-style: italic;
+}
+
+.send-message-cta:hover {
+    background-color: #deb887;
+    font-style: italic;
+}
+
+.copyright {
+    position: relative;
+    top: 200px;
+    color: var(--primary-color);
+}
+
+.login {
+    position: relative;
+    top: 15px;
+    color: #00008b;
+}
+
+.details-info {
+    position: absolute;
+    top: 85px;
+    color: #a0522d;
+}
+
+.details {
+    position: absolute;
+    top: 200px;
+}
+
+.login-button {
+    background-color: #ff6347;
+    color: #ffffff;
+}
+
+.login-button:hover {
+    background-color: #fa8072;
+    color: #ffffff;
+}
+
+.or {
+    color: var(--primary-color);
+}
+
+.click-here {
+    color: #1e90ff;
+}
+
+.here {
+    color: #00008b;
+    font-style: italic;
+}
+
+.here:hover {
+    color: #00bfff;
+}
+
+.bank-details {
+    position: absolute;
+    top: 90px;
+    left: 350px;
+}
+
+.first {
+    background-color: #ff6347;
+    color: #ffffff;
+}
+
+.first:hover {
+    background-color: #fa8072;
+    color: #ffffff;
+}
+
+.second-section {
+    position: absolute;
+    top: 80px;
+    color: var(--primary-color);
+}
+
+.submit-response {
+    background-color: #ffa07a;
+    color: #ffffff;
+}
+
+.submit-response:hover {
+    background-color: #ffe4b5;
+    color: #000000;
+}
